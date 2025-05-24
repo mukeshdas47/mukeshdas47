@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background with Image on Right</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('images/Univer.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+        }
+
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 60px;
+        }
+
+        .text-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .passport-photo img {
+            width: 120px;   /* typical passport size */
+            height: 160px;
+            border: 2px solid white;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="text-content">
+            <h1>
+                <a href="Home.html">Home</a> |
+                <a href="About.html">About</a> |
+                <a href="Contact.html">Contact</a> |
+                <a href="Heading_Paragraph_Tag.html">Paragraph</a>
+            </h1>
+
+            <h2>What is HTML?</h2>
+            <p>HTML stands for HyperText Markup Language, which is the standard document format for web pages that is supported by all modern browsers.</p>
+
+            <h3>What is the difference between HTML and HTML5?</h3>
+            <p>Will check and update here.</p>
+
+            <h4>RUPESH DAS - Just for testing</h4>
+        </div>
+
+        <div class="passport-photo">
+            <img src="file:///D:/HTML/images/Mukesh.jpg" alt="Mukesh Passport Photo">
+        </div>
+    </div>
+</body>
+</html>
